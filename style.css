@@ -22,6 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    z-index: 999;
     padding: 4px;
     box-shadow: 0 5px 10px rgb(46, 46, 46, 0.3);
 }
@@ -112,8 +113,11 @@ ul {
 
 .cardss:hover {
     transform: scale(1.1);
+    
 }
-
+.cardss{
+    z-index: 99;
+}
 .card {
     background-color: #F08080;
     width: 21.25em;
@@ -126,6 +130,7 @@ ul {
 
 .card:hover {
     transform: scale(1.1);
+    
 }
 
 .info h3 {
@@ -236,7 +241,7 @@ a.active{
     
     nav{
         position: absolute;
-    left: -300px;
+        left: -300px;
         top: 0;
         z-index: 999;
         width: 280px;
@@ -273,7 +278,6 @@ a.active{
         padding: 0 30px;
         margin-top: 10px;
     }
-
     nav ul li a{
         margin-bottom: 5px;
         padding: 10px 15px;
