@@ -68,7 +68,6 @@ ul {
 }
 
 .home {
-    height: 100vh;
     padding: 10rem 3rem;
 }
 
@@ -147,7 +146,6 @@ ul {
     margin-left: 5px;
     text-decoration: none;
 }
-
 .container h1 {
     color: #F08080;
     margin-block: 1.8rem;
@@ -207,8 +205,8 @@ nav.logo{
     height: 100%;
     background-color: #000;
 }
-a.active,a:hover{
-    background-color:#F08080 ;
+a.active{
+    background-color:black ;
     color: #fff;
     transition: 0.5s;
     border-radius: 10px;
@@ -222,7 +220,7 @@ a.active,a:hover{
     transition: 0.2s;
 }
 .navyy:hover{
-    background-color: #f6f4ff;
+    background-color: black;
 }
 .navyy div{
     width: 30px;
@@ -269,9 +267,7 @@ a.active,a:hover{
         align-items: center;
         margin-left: 30px;
     }
-    .cards{
-        margin-top: 130px;
-    }
+    
     nav ul{
         display: block;
         padding: 0 30px;
